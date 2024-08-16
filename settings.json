@@ -1,0 +1,101 @@
+{
+    // rust-analyzer settings
+    "rust-analyzer.imports.granularity.group": "crate",
+    "rust-analyzer.rustfmt.extraArgs": [],
+    "rust-analyzer.diagnostics.disabled": ["unresolved-proc-macro"],
+
+    // terminal settings
+    "terminal.integrated.drawBoldTextInBrightColors": true,
+    "terminal.integrated.windowsEnableConpty": false,
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "terminal.integrated.fontWeight": "200",
+    "terminal.integrated.fontWeightBold": "400",
+
+    // editor settings
+    "editor.lineNumbers": "interval",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "editor.rulers": [80],
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.codeLens": false,
+    "editor.scrollBeyondLastLine": true,
+    "editor.folding": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Noto Sans Mono",
+    "editor.multiCursorModifier": "alt",
+    "editor.lightbulb.enabled": "off",
+
+    // workbench settings
+    "workbench.editor.showIcons": false,
+    "workbench.statusBar.visible": false,
+    "workbench.iconTheme": null,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.settings.useSplitJSON": false,
+    "workbench.colorTheme": "Delta Color Theme",
+    "breadcrumbs.enabled": false,
+
+    // Speed up indexing
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/target/**": true
+    },
+
+    // Other settings
+    "window.menuBarVisibility": "hidden",
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "update.mode": "manual",
+    "files.insertFinalNewline": true,
+    "extensions.ignoreRecommendations": false,
+    "screencastMode.verticalOffset": 0,
+
+    // Workbench color customizations
+    "workbench.colorCustomizations": {
+        "[Delta Color Theme]": {
+            "editorWarning.foreground": "#00b7ff",
+            "editorError.foreground": "#ff0000",
+            "editorInfo.foreground": "#3cff00",
+        }
+    },
+
+    // APC++ settings
+    "apc.activityBar": {
+        "position": "bottom",
+        "size": 20
+    },
+    "apc.statusBar": {
+        "position": "editor-bottom",
+        "height": 20,
+        "fontSize": 10
+    },
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 7,
+            "y": 5
+        }
+    },
+    "apc.header": {
+        "height": 25,
+        "fontSize": 11
+    },
+    "apc.listRow": {
+        "height": 19,
+        "fontSize": 11
+    },
+    "editor.guides.indentation": false,
+    "window.commandCenter": false,
+    "debug.toolBarLocation": "hidden",
+    "workbench.layoutControl.enabled": false
+}
