@@ -1,0 +1,14 @@
+Extensions installed on WSL: Ubuntu:
+alefragnani.project-manager
+christian-kohler.path-intellisense
+eamodio.gitlens
+esbenp.prettier-vscode
+fill-labs.dependi
+gruntfuggly.todo-tree
+leif-niemczik.delta-color-theme
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+rust-lang.rust-analyzer
+rvest.vs-code-prettier-eslint
+tamasfe.even-better-toml
